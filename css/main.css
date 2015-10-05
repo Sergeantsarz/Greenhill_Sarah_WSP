@@ -1,10 +1,265 @@
-/* Project CSS 
-============================================================
-============================================================*/
+/* Main CSS */
+
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Philosopher", Arial , sans-serif;
+}
 
 
-/* HEADER ============================== */
+/* Buttons */
 
-/* ABOUT ============================== */
+.btn-dark {
+    border-radius: 0;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.4);
+}
 
-/* COMPONENTS ============================== */
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover , .btn-light:focus , .btn-light:active {
+    color: #333333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active , .sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #ffffff;
+    background: none;
+}
+
+#menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.header .text-vertical-center{
+	color: #ffffff;
+}
+
+
+/* About */
+
+.about {
+    padding: 50px 0;
+}
+
+/* Focuses */
+
+.focus {
+    padding: 50px 0;
+    background-color: #085BBF;
+}
+
+.focus-item {
+    margin-bottom: 30px;
+}
+
+/* Main Focus */
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #000000;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Orbitron", Arial , sans-serif;
+}
+
+.text-vertical-center p {
+    margin: 0;
+    padding: 0 10em 0 10em;
+    font-weight: 700;
+    color: #000000;
+ 
+}
+
+.mainFocus {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #000000;
+    background: url(../img/mainFocusBg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.mainFocus img{
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+.mainFocus h1{
+	color: #000000;
+	font-family: "Orbitron", Arial , sans-serif;
+	margin-top: .5em;
+}
+
+/* Headings */
+
+.row h2{
+	font-family: "Orbitron", Arial , sans-serif;
+}
+
+/* Examples */
+
+.example {
+    padding: 50px 0;
+}
+
+.example-item {
+    margin-bottom: 30px;
+}
+
+.img-example {
+    margin: 0 auto;
+}
+
+.img-example:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+/* Footer */
+
+footer {
+    padding: 1em 0 0 1em;
+    background-color: #c4c4c4;
+}
