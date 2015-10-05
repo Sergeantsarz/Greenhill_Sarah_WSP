@@ -225,10 +225,13 @@ hr.small {
 
 .example-item {
     margin-bottom: 30px;
+    
 }
+
 
 .img-example {
     margin: 0 auto;
+    border: solid #999999;
 }
 
 .img-example:hover {
