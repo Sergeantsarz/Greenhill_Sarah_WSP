@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sarah Greenhill - Web Standards Project</title>
+    <title>Sarah Greenhill - WSP - Wk1 Proj1</title>
 
     <!-- Bootstrap Core CSS-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -29,28 +29,55 @@
 </head>
 
 <body>
+
+    <!--Navigation-->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top">Week One Project</a>
+            </li>
+            <li>
+                <a href="#top">Home</a>
+            </li>
+            <li>
+                <a href="#about">About The Project</a>
+            </li>
+            <li>
+                <a href="#focuses">Five Focuses</a>
+            </li>
+            <li>
+                <a href="#examples">Some Examples</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
     <!--Header-->
     <header id="top" class="header">
         <div class="text-vertical-center">
             <h1>WSP Portfolio</h1>
-            <h3>Sarah R. Greenhill - Project</h3>
+            <h3>Sarah R. Greenhill - Project One</h3>
             <br>
             <div class="row text-center">
-                <div>
+                <div class="col-lg-10 col-lg-offset-1">
 					<h4>
 						Hello, everyone! My name is Sarah Greenhill and this is my portfolio site that will be a work in progress over the span of the coming month of October. There's nothing I love more than art and programming, so this project will help me to hone my skills and grow as an artist/programmer. A big issue being posed to us is semantics, their value, and how to use the newest things included in HTML5. 
 					</h4>
-					<a href="#aboutMe" class="btn btn-dark btn-lg">Read About My Project</a>
+					<a href="#about" class="btn btn-dark btn-lg">Read About My Project</a>
         </div>
     </header>
 
     <!--About-->
-    <section class="about" id="aboutMe">
+    <section id="about" class="about">
         <div class="container">
             <div class="row">
-                <div class="text-center">
-                    <h2>Web Standards Project</h2>
-                    <p>This website is dedicated to the absorption and process of solidifying and honing our skills with HTML5 and CSS3 in order to create content on the web that is visually appealing, semantically relevant, and 100% validated. Inspiration for the focus of our research and development will be garnered from an outside source. The site that we have been provided with for inspiration is called <a target="_blank" href="http://www.templatemonster.com//">http://www.templatemonster.com/</a>.</p>
+                <div class="col-lg-12 text-center">
+                    <h2>This is my week one project for WSP!</h2>
+                    <p class="lead">This week, we've been tasked with the creation of a portfolio website in order to showcase the things that we wish to improve upon personally. The main thing that I would like to focus on this month is This site takes inspiration from, showcasing elements of a webpage that I would enjoy improving upon. The site that we have been provided with for inspiration is called <a target="_blank" href="http://www.templatemonster.com//">http://www.templatemonster.com/</a>.</p>
                 </div>
             </div>
             <!--End .row-->
@@ -59,80 +86,35 @@
     </section>
     
     <!--Main Focus-->
-    <section class="mainFocus">
+    <aside class="mainFocus">
         <div class="text-vertical-center">
             <h1>Main Focus</h1>
-            <p>The Header: This component of a web page can be found all over the internet and contain a myriad of things like navigation, logos, information, advertisements, and more.</p>
+            <p>The main focus for this month's WSP project will be the use of a Jumbotron/CTA that set itself apart from the most common ones out there. A great example that I have seen, setting itself apart from the rest, is a template that I found on templatemonster.com. I like it because it is designed different from most of the popular sites. When you use something like Bootstrap, it comes with the standard Jumbotron and you can immediately tell that someone has used the framework because of this. I like the way sites look with their eye-catching focus elements, but I would love to learn to use them in a way that isn't cookie-cutter. In my example, the website has the large image on the left side of the screen with a vertical navigation within. All the content rests to the right of it and scrolls accordingly. I would also like to include <strong>Responsive Design</strong> as something that I would dually like to focus on. So many websites look absolutely terrible in their mobile versions and their CTA areas are even worse than they are on a full fledged website.</p>
 			<h2>What I'd like to learn:</h2>
-			<p>There are plenty of things that a programmer could choose from to focus on when it comes to the many different sorts of elements found in a typical web page. It's our task, during this month, to choose a component that we would most like to improve upon and practice using.</p>
-			<h3>How Would I Make This</h3>
-			<p>Step One: Use the < header > tag to start the section of content where all the header's contents will be located.</p>
-			<p>Step Two: Between the open and closing tags of the header, decide what is going to be contained within.</p>
-			<p>Step Three: Decide on creating a navigation menu. Use the < nav > tag to create a navigation within the previously created < header >.</p>
-			<p>Step Four: Use the < ul > (unordered list) tag inside the < nav > tags.</p>
-			<p>Step Five: Use the < li > tag within the newly created unordered list for as many items as the menu needs.</p> 
-			<p>Step Six: Use further < ul > tags containing < li > elements within the navigation menu in order to create any needed submenus or drop-downs.</p>
+			<p>I want to be able to create CTA areas of content in my webpages that are well placed, pleasing to the eye, and fulfill their purpose 100% without fail. In the past, my attempts at using this area of a site falls short. Even though these sections of a page are normally the first things someone sees when they are on your page, that doesn't mean it is a good use of space or a great CTA. I want to be able to make fully responsive websites that retain their strength and value even in a mobile format.</p>
 			
-			<hr class="small">
-			
-			<h2>Style Guide</h2>
-   
-            <h4>Fonts</h4>
-            <p>Google Fonts: Orbitron & Philosopher</p>
-            <div class="swatches">
-            	<div>
-                	<div class="example-item">
-                    	<a href="#">
-                        	<img class="img-example img-responsive" src="img/exampleOne.png">
-                        </a>
-					</div>
-				</div>
-                <div>
-                	<div class="example-item">
-                    	<a href="#">
-                        	<img class="img-example img-responsive" src="img/exampleTwo.png">
-                        </a>
-                    </div>
-                </div>
-                <div>
-                	<div class="example-item">
-                    	<a href="#">
-                        	<img class="img-example img-responsive" src="img/exampleThree.png">
-                        </a>
-                    </div>
-                </div>
-                <div>
-                	<div class="example-item">
-                    	<a href="#">
-                        	<img class="img-example img-responsive" src="img/exampleFour.png">
-                        </a>
-					</div>
-                </div>
-                
-				<div id="clear"></div><!--Clear-->
-				
-			<a id="mainFocusImg" href="http://www.templatemonster.com/demo/57815.html"><img border="0" alt="MainFocus" src="img/mainFocus.png" width="1250" height="350" target="_blank"></a>
+			<a id="mainFocusImg" href="http://www.templatemonster.com/demo/53810.html"><img border="0" alt="MainFocus" src="img/mainFocus.png" width="700" height="400" target="_blank"></a>
          
         </div>
-    </section>
+    </aside>
 
     <!--Focus-->
     <!-- The circle icons use Font Awesome's stacked icon classes-->
     <section id="focuses" class="focus bg-primary">
         <div class="container">
             <div class="row text-center">
-                <div>
+                <div class="col-lg-12">
                     <h2>Five Areas of Sub-Focus</h2>
                     <hr class="small">
-                    <div id="fiveFocuses">
-                        <div>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1 col-sm-6">
                             <div class="focus-item">
                                 <span class="fa-stack fa-2x">
-                               		<i class="fa fa-circle fa-stack-2x"></i>
-							   		<i class="fa fa-code fa-stack-1x text-primary"></i>
-								</span>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-code fa-stack-1x text-primary"></i>
+                            </span>
                                 <h4>
-                                    <strong>CTA</strong>
+                                    <strong>Nav</strong>
                                 </h4>
                                 <p>The first element that I would like to focus on is the nav element. The reason behind it is quite simple; every single website has a navigation of some kind. I would like to learn all the different ways that this semantic element can be used and be able to create wicked looking navigations that are just as pleasing to the eye and functional as the rest of the site.</p>
                                 <h4>
@@ -143,17 +125,17 @@
                                     <strong>How To</strong>
                                 </h4>
                                 <p>Every web page has navigation, this tag is self-explanatory in that it's needed, therefore the topmost part of the page is where the nav tag will have to be used, and its child elements to create links to different parts of my website. Making it look pretty is secondary.</p>
-                                <a href="#" class="btn btn-light" target="_blank">View Component</a>
+                                <a href="#" class="btn btn-light" target="_blank">See Example</a>
                             </div>
                         </div>
-                        <div>
+                        <div class="col-md-2 col-sm-6">
                             <div class="focus-item">
                                 <span class="fa-stack fa-2x">
-                                	<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-code fa-stack-1x text-primary"></i>
-								</span>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-code fa-stack-1x text-primary"></i>
+                            </span>
                                 <h4>
-                                    <strong>Main Info / About Me</strong>
+                                    <strong>Articles</strong>
                                 </h4>
                                 <p>The second item that I would like to focus on are articles, even though it may seem like the name says it all; my research over this past week shows me that the article element has a lot more versatility to it than meets the eye. I would like to learn about and use articles to their fullest extent, because I am more likely to rely on divs with classes and ids in order to get my work done.</p>
                                 <h4>
@@ -164,17 +146,17 @@
                                     <strong>How To</strong>
                                 </h4>
                                 <p>Each section of my webpage will have to be analyzed in order to determine if the article tag could be substituted in place of the div that currently holds the content in the area in question. If it is self-contained, then there is a good chance that article can be substituted.</p>
-                                <a href="http://html5doctor.com/the-article-element/" class="btn btn-light" target="_blank">View Component</a>
+                                <a href="http://html5doctor.com/the-article-element/" class="btn btn-light" target="_blank">See Example</a>
                             </div>
                         </div>
-                        <div>
+                        <div class="col-md-2 col-sm-6">
                             <div class="focus-item">
                                 <span class="fa-stack fa-2x">
-                                	<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-code fa-stack-1x text-primary"></i>
-								</span>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-code fa-stack-1x text-primary"></i>
+                            </span>
                                 <h4>
-                                    <strong>Footers</strong>
+                                    <strong>Sections</strong>
                                 </h4>
                                 <p>Much like an article has a specific semantic meaning, so does the section. I want to be able to use sections in the same way as I can with articles, so that the code within the body of my HTML has semantic value and therefore becomes better by doing so. As I stated before, it is much more my practice to use divs with classes and ids in order to influence them with CSS instead of using the newer HTML5 elements associated with separating content while also retaining semantic meaning.</p>
                                 <h4>
@@ -185,17 +167,17 @@
                                     <strong>How To</strong>
                                 </h4>
                                 <p>Using sections is going to be just like using the articles, a section will have to be looked at for the content within to determine if the section tag should be used. If the content in question is something that is all related, then it's quite likely that the section tag should be used.</p>
-                                <a href="http://html5doctor.com/the-section-element/" class="btn btn-light" target="_blank">View Component</a>
+                                <a href="http://html5doctor.com/the-section-element/" class="btn btn-light" target="_blank">See Example</a>
                             </div>
                         </div>
-                        <div>
+                        <div class="col-md-2 col-sm-6">
                             <div class="focus-item">
                                 <span class="fa-stack fa-2x">
-                                	<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-code fa-stack-1x text-primary"></i>
-								</span>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-code fa-stack-1x text-primary"></i>
+                            </span>
                                 <h4>
-                                    <strong>Contact / Forms</strong>
+                                    <strong>Figures</strong>
                                 </h4>
                                 <p>Figures are something that I do not have very much experience working with. I have had to create a couple projects in past classes dealing with them, using them to contain images on a page, but other than that...my knowledge of them and their various uses is lacking. I want to research this element and how to use to properly, even now, I would have to read up on its exact usage and implementation because I do not have much experience using figures.</p>
                                 <h4>
@@ -206,17 +188,17 @@
                                     <strong>How To</strong>
                                 </h4>
                                 <p>In a spot where I would ordinarily place a series of images, there's room to assess the use of the figure element. I myself haven't used it much, but a series of images on my webpage can be labeled with their own element and therefore given some semantic meaning.</p>
-                                <a href="http://html5doctor.com/the-figure-figcaption-elements/" class="btn btn-light" target="_blank">View Component</a>
+                                <a href="http://html5doctor.com/the-figure-figcaption-elements/" class="btn btn-light" target="_blank">See Example</a>
                             </div>
                         </div>
-                        <div>
+                        <div class="col-md-2 col-sm-6">
                             <div class="focus-item">
                                 <span class="fa-stack fa-2x">
-                                	<i class="fa fa-circle fa-stack-2x"></i>
-									<i class="fa fa-code fa-stack-1x text-primary"></i>
-								</span>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-code fa-stack-1x text-primary"></i>
+                            </span>
                                 <h4>
-                                    <strong>Recent Articles</strong>
+                                    <strong>Figcaptions</strong>
                                 </h4>
                                 <p>As I understand it, a figcaption is something that goes along with a figure and can only be a child element of one, but figures can contain other child elements. Even though this element is "optional" I think that knowing how and when to use this new HTML5 element would be useful, because it is not often that I, personally, have seen this used.</p>
                                 <h4>
@@ -228,7 +210,7 @@
                                 </h4>
                                 <p>The figcaption goes along with the figure, something that adds to the meaning and value of the image itself. Not every single image on a page needs something like this, but I would like to explore how and when to place the figcaption element within a figure.</p>
 
-                                <a href="http://html5doctor.com/summary-figcaption-element/" class="btn btn-light" target="_blank">View Component</a>
+                                <a href="http://html5doctor.com/summary-figcaption-element/" class="btn btn-light" target="_blank">See Example</a>
                                 
                             </div>
                         </div>
@@ -246,13 +228,38 @@
     <section id="examples" class="example">
         <div class="container">
             <div class="row">
-                <div class="text-center">
-                    <h2>Information</h2>
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Style Guide</h2>
                     <hr class="small">
-                    <h4></h4>
-                    <p></p>
+                    <h4>Fonts</h4>
+                    <p>Google Fonts: Orbitron & Philosopher</p>
                     <div class="row">
-                        
+                        <div class="col-md-6">
+                            <div class="example-item">
+                                <a href="#">
+                                    <img class="img-example img-responsive" src="img/exampleOne.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="example-item">
+                                <a href="#">
+                                    <img class="img-example img-responsive" src="img/exampleTwo.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="example-item">
+                                <a href="#">
+                                    <img class="img-example img-responsive" src="img/exampleThree.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="example-item">
+                                <a href="#">
+                                    <img class="img-example img-responsive" src="img/exampleFour.png">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -270,7 +277,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="text-center">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Sarah R. Greehill</strong>
                     </h4>
                     <p>1234 Candy Ave<br>New Haven, CT 06515</p>
@@ -291,13 +298,50 @@
                             <a href="https://dribbble.com/SergeantSarz"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
-					<hr class="small">
+                    <hr class="small">
                     <p class="text-muted">Copyright &copy; Sarah R. Greenhill 2015</p>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
 
 </body>
 
