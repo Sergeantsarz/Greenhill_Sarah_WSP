@@ -3,44 +3,58 @@
 ============================================================*/
 
 /* Navigation */ 
-
-
-ul {
-    padding: 0;
-    margin: 0;
-}
-
-li {
-	float: left;
-    display: inline;
-    position: relative;
-    border: .4em solid #a3a3a3;
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 1em 0 0 .5em;
+body{
+	background-color: #085bbf;
 	text-align: center;
 }
 
-ul ul {
-    position: absolute;
-    display: none;
-   
+ul{
+    padding: 0;
+    margin: 0;
+    
+}
+
+li{
+	float: left;
+    display: inline-block;
+    position: relative;
+    border: .4em solid #6f91b6;
+    font-size: 1em;
+    padding: 1em 0 1em .5em;
+    margin-right: 1em;
+	text-align: center;
+	list-style-type: none;
 }
 
 
-li:hover > ul {
-    display: block;
+ul ul{
+    position: absolute;
+    display: none;  
    
+}
+
+ul li ul li{
+	background-color: #6f91b6;
+}
+
+
+li:hover > ul{
+    display: block;
+	margin-top: 1em;
+
 }
 
 a{
 	text-decoration: none;
-	margin: 4.3em 4.3em 0 4em;
-	margin-bottom: 2em;
+	margin: 4.3em 4em 0 4em;
+	color: #ffffff;
+	font-family: Impact, Georgia, sans-serif;
+	letter-spacing: .1em;
 	
 }
 
 li:hover{
-	background-color: #e4e4e4;
+	background-color: #556eff;
+
 }
+
