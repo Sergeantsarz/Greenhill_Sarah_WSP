@@ -8,6 +8,10 @@ body{
 	text-align: center;
 }
 
+nav{
+	margin-left: 13.5em;
+}
+
 ul{
     padding: 0;
     margin: 0;
@@ -21,7 +25,7 @@ li{
     border: .4em solid #6f91b6;
     font-size: 1em;
     padding: 1em 0 1em .5em;
-    margin-right: 1em;
+    margin: 0 1em 0 0;
 	text-align: center;
 	list-style-type: none;
 }
