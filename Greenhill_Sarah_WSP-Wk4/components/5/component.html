@@ -12,6 +12,46 @@
 
 	<!-- Component -->
 	<h1>Component Four: Contact/Forms</h1>
+	
+	<section>
+		<h2>Need to contact us?</h2>
+		
+		<form id="formOne" action="" method="post">
+			<fieldset>
+				<legend>About You</legend>
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" tabindex="10" placeholder="Your Name Goes Here" required>
+
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" tabindex="20" placeholder="Valid Email Address" required>
+
+				<label for="website">Phone</label>
+				<input type="text" name="server" id="server" tabindex="10" placeholder="Phone Number" required>
+		
+				<label for="checkbox">Location</label>
+				<input type="checkbox" name="NA" id="NA" value="North America"> North America
+				<br>
+				<input type="checkbox" name="EU" id="EU" value="Europe"> Europe
+				<br>
+				<input type="checkbox" name="CA" id="CA" value="Canada"> Canada
+				<br>
+				<input type="checkbox" name="O" id="O" value="Other"> Other
+				<br>
+		
+				<label for="date">Today's Date</label>
+				<input type="date" name="todaysDate" id="todaysDate" tabindex="50" placeholder="Today's Date" required>
+			</fieldset>
+	
+			<fieldset>
+				<legend>Questions, Comments, or Concerns?</legend>
+				<p>Let us know!</p> 
+
+				<label for="description">Please leave a detailed description here.</label>
+				<textarea id="description" name="description" tabindex="80" rows="7" placeholder="Type your description here."></textarea>
+				<input type="submit" name="submit" id="submit" value="Submit" tabindex="90">
+			</fieldset>
+		</form>
+	</section>
 	<!-- End Component -->
 	
 </body>

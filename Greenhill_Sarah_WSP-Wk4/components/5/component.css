@@ -2,3 +2,49 @@
 ============================================================
 ============================================================*/
 
+/* Main */
+h1{
+	text-align: center;
+}
+
+body{
+	background-color: #62a8e6;
+}
+
+/* Form */
+
+#formOne{
+	margin: 1em 0;
+	padding: 1.250rem;
+}
+
+fieldset {
+	float: left;
+	width: 50%;
+	padding: 0;
+	margin: 0 0 0 2em;
+	
+}
+
+label {
+	display:block;
+	font-size: 1em;
+	margin: .8em 0 0 0;
+}
+
+input , label , textarea , #submit , p{
+	margin-left: 2em;
+}
+
+input[type="text"], input[type="email"], input[type="url"], textarea {
+	width: 15.625em;
+}
+
+input[type="submit"] {
+	display:block;
+	margin: 1em 0;
+}
+
+#todaysDate{
+	margin-bottom: 1em;
+}
