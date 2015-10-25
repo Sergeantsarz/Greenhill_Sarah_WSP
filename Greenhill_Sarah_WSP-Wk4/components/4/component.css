@@ -2,3 +2,65 @@
 ============================================================
 ============================================================*/
 
+/* Main */
+h1{
+	text-align: center;
+}
+
+/* Footer */
+
+#pageFooter {
+	background: rgba(160,122,237,0.9);
+	padding-top: 2em;
+	clear:both;
+	overflow:hidden;
+	height: 9.375em;
+}
+
+input[type="search"] {
+	width: 15.625em;
+}
+
+#pageFooter label {
+	display: block;
+	font-size: 1.2em;
+	text-transform: uppercase; 
+}
+
+#pageFooter p {
+	float: right;
+	clear: right;
+	margin-right: 3.9%;
+	text-align: right;
+}
+
+#pageFooter a {
+	display:block;
+	height: 6.250em;
+	line-height: 6.250em;
+	border: none;
+	color:rgb(76, 67, 65);
+	padding-left: 5.938rem;
+}
+
+#pageFooter form {
+	float: left;
+	margin-left: 3.125rem;
+	display: inline;
+}
+
+.copyright {
+	width: 18.750em;
+}
+
+/* Site Map */
+
+ul li{
+	float: left;
+	display: inline;
+	margin-left: 4em;
+}
+
+h4{
+	margin: 3em 0 0 40em;
+}
