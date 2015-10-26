@@ -77,13 +77,11 @@ hr.small {
     padding: 3.13em 0;
     background-color: #085BBF;
     
-    
 }
 
 .focus-item {
-    margin-bottom: 1.88em;
-    margin-right: 1em;
-	width: 18%;
+    margin: 0 0 .5em 2em;
+	width: 17%;
 	float: left;
 	display: inline-block;
 }
@@ -141,6 +139,7 @@ hr.small {
 
 .row h2{
 	font-family: "Orbitron", Arial , sans-serif;
+	text-align: center;
 }
 
 /* Clear */
