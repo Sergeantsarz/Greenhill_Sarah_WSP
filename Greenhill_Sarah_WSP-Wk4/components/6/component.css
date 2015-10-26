@@ -2,6 +2,7 @@
 ============================================================
 ============================================================*/
 
+
 img{
 	border: .2em solid #999999;
 	border-radius: .5em;
@@ -11,12 +12,13 @@ img{
 }
 
 span{
-	width: 17.59%;
+	width: 18.4%;
 	text-align: left;
 	display: block;
 	border: .2em solid #999999;
 	border-radius: .5em;
 	margin-bottom: .5em;
+	padding: .1em;
 }
 
 h4{
@@ -25,10 +27,14 @@ h4{
 	font-family: cursive, helvetica, sans-serif;
 	background: #999999;
 	border-radius: .5em;
-	width: 17.59%;
+	width: 18.59%;
 	text-align: center;
 }
 
 h1{
 	text-align: center;
+}
+
+article{
+	margin-left: 5em;
 }
